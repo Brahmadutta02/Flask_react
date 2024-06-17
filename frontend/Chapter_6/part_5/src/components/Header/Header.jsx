@@ -14,6 +14,7 @@ const Header = () => {
             <li><Link to="/events" className='navlink'>Events</Link></li>
             <li><Link to="/sponsors" className='navlink'>Sponsors</Link></li>
             <li><Link to="/contact" className='navlink'>Contact</Link></li>
+            {/* <li><Link to="/signup" className='navlink'>SignUp</Link></li> */}
           </ul>
         </nav>
         <div className="auth">
