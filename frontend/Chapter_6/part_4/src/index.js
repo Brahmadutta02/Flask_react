@@ -12,6 +12,8 @@ import SpeakersPage from './pages/SpeakersPage/SpeakersPage'
 import EventsPage from './pages/EventsPage/EventsPage'
 import SponsorsPage from './pages/SponsorsPage/SponsorsPage'
 import ContactPage from './pages/ContactPage/ContactPage';
+import SignUp from './pages/Auth/SignUp';
+
 import "./index.css";
 
 
@@ -42,6 +44,11 @@ const router = createBrowserRouter([
  {
     path: "/contact",
     element: <ContactPage/>,
+  },
+
+  {
+    path:"/auth/signup",
+    element: <SignUp/>
   },
 
 
