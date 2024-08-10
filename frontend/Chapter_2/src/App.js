@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 const speakers = {
   id: 1,
   name: "Brahma",

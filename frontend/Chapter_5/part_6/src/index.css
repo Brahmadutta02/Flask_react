@@ -11,14 +11,14 @@ html{
 
 body{
 	font-family: "Josefin Sans", sans-serif;
-	background-color: #000;
+	background-color: #c4c4c4;
 }
 
 .container{
 
 	width: 100%;
 	height: 100%;
-	background-image: url("/assets/img/bg-conf.jpg");
+	background-image: url("../public/assets/img/bg-conf.jpg");
 	background-size: cover;
 	background-position: center;
 	flex-direction: column;
